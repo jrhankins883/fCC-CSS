@@ -7,14 +7,27 @@
 
 .post-img {
   width: 100%;
-  border-bottom: 5px;
+  border-bottom: 5px solid grey;
 }
 
 .post-content {
   padding: 5px;
 }
 
-.post-title .post-excerpt {
+.post-title, .post-excerpt {
   color: orange;
   margin: 10px;
+}
+
+.read-more {
+  color: purple;
+  background-color: magenta;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.read-more:hover {
+  background-color: maroon;
 }
