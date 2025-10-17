@@ -1,26 +1,16 @@
-input:focus {
-  border: yellow 2px solid;
-}
+input:focus,
 textarea:focus {
   border: purple 2px solid;
 }
 
-input:invalid {
-  border: red 2px solid;
-}
-select:invalid {
-  border: red 2px solid;
-}
+input:invalid,
+select:invalid,
 textarea:invalid {
   border: red 2px solid;
 }
 
-input:valid {
-  border: green 2px solid;
-}
-select:valid {
-  border: green 2px solid;
-}
+input:valid,
+select:valid,
 textarea:valid {
   border: green 2px solid;
 }
@@ -31,4 +21,14 @@ button:hover {
 
 .radio-group input[type="radio"]:checked {
   border: pink 2px solid;
+  background-color: beige;
+  box-shadow: 10px 15px 5px 30px rgba(0, 0, 0, 0.9);
+}
+
+.radio-group input[type="radio"]:checked + label{
+  color: gray;
+}
+
+input:first-of-type {
+  font-weight: bold;
 }
