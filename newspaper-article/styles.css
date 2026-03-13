@@ -1,8 +1,21 @@
-:root {
+html {
   font-size: 24px;
 }
 
 .newspaper {
   font-size: 16px;
   font-family: "Open Sans", sans-serif;
+}
+
+.name {
+  font-size: 2rem;
+  font-family: "Times New Roman", serif;
+}
+
+.name, .author {
+  text-transform: uppercase;
+}
+
+.headline {
+  font-size: 
 }
